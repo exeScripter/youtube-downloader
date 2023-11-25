@@ -35,6 +35,9 @@ def main():
         return
 
     download_video(url, file_format, output_path)
+    
+    # Prevent the window from closing
+    input('Naciśnij Enter, aby zakończyć...')
 
 if __name__ == '__main__':
     main()
